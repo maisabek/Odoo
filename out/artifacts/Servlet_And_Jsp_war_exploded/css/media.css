@@ -1,0 +1,119 @@
+@media (max-width: 767px ){/* mobile & tablet*/
+.navbar2{
+    display: none;
+}
+.navbar1 .hov2{
+    display: none;
+}
+.navbar1 img {
+    margin-left: 2%;
+}
+.hov1 .navbar1-firstitem {
+    margin-left: 2%;
+}
+.tele,.main .parag{
+    float: none;
+    width: 50%;
+    margin-left: 1%;
+}
+.mai, .para {
+    float: none;
+    width: 82%;
+    margin-top: 4%;
+}
+.phot1 {
+    float: none;
+    width: 85%;
+    margin-left: 18%;
+}
+.mobile2 .ff4, .mobile3 .ff5 {
+    top: 15px;
+    left: 5px;
+}
+.mobile1 .ff1, .mobile1 .ff2, .mobile1 .ff3 {
+    top: 22px;
+    left: 6px;
+}
+.contact-content {
+    float: none;
+    width: 76%;
+}
+.contact-photos {
+    width: 77%;
+    float: none;
+    margin-left: 10%;
+}
+.footer p {
+    margin-left: 2%;
+}
+.para{margin-left: -13%;}
+
+
+
+
+
+
+
+}
+@media (min-width: 768px) and (max-width:991px){ /* small screen */
+.tele,.main .parag{
+    float: none;
+    width: 100%;
+    margin-left: 18%;
+}
+.main .parag{
+    margin-left: -17%;
+}
+.main h2{
+    margin-top: 0%;
+}
+.mai, .para {
+    float: none;
+    width: 82%;
+    margin-top: 4%;
+}
+.mai{margin-left: 31%;}
+
+.applicaion-para p {
+    margin-left: 17%
+}
+.mobile {
+    margin-bottom: 0%;
+}
+.mobile1 .ff1,.mobile1 .ff2,.mobile1 .ff3{
+    width: 90%;
+    left: 9px;
+    height: 250px;
+    top:36px;
+}
+.mobile2 .ff4, .mobile3 .ff5 {
+    top: 31px;
+    left: 9px;
+}
+.p1{
+    margin-left: 5%;
+}
+.footer p {
+    margin-left: 314px;
+}
+}
+@media (min-width: 992px) and (max-width:1199px) { /* medium screen */
+    .mai,.brand .para {
+        width: 37%;
+        margin-left: 4%;
+    }
+
+    .mobile {
+        margin-bottom: 0%;
+    }
+    .mobile1 .ff1,.mobile1 .ff2,.mobile1 .ff3{
+        width: 88%;
+        left: 11px;
+        height: 250px;
+        top:48px;
+    }
+    
+}
+@media (min-width: 1200px){ 
+
+}

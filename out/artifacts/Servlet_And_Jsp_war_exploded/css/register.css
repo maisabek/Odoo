@@ -1,0 +1,244 @@
+body{margin:0;padding: 0;}
+.header{
+    background:linear-gradient(rgba(73, 71, 73, 0.5),rgba(31, 30, 31, 0.4))
+    ,url(../images/2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    animation: slideleft 500s infinite linear;
+    -webkit-animation: slideleft 1000s infinite linear;
+}
+@keyframes slideleft {
+    from {background-position: 0%;}
+    to {background-position: 90000%;}
+}
+.head{ 
+    width: 34%;
+    position: relative;
+    margin-left: 32%;
+    background: rgba(202, 200, 200, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px 15px 30px 30px;
+    box-shadow: -1px 4px 28px 0px rgba(105, 105, 105, 0.75);
+    -moz-box-shadow:  -1px 4px 28px 0px rgba(105, 105, 105, 0.75);
+    -webkit-box-shadow: -1px 4px 28px 0px rgba(105, 105, 105, 0.75);
+    -o-box-shadow: -1px 4px 28px 0px rgba(105, 105, 105, 0.75);
+    -ms-box-shadow:  -1px 4px 28px 0px rgba(105, 105, 105, 0.75);
+}
+.head h5{
+    color:white;
+        margin-top: 29px; 
+       margin-left: 10px;
+       font-size: 27px;
+}
+/*.head input[type=email],.head input[type=password],.head input[type=text]{*/
+/*    border:none;*/
+/*    border-bottom: 1px solid gray;*/
+/*    background-color: transparent;*/
+/*    outline: none;*/
+/*    height: 40px;*/
+/*    width: 50%;*/
+/*    color:black;*/
+/*    margin-top: 20px;*/
+/*    !*display: 16px;*!*/
+/*    margin-left: 30px;*/
+
+/*}*/
+/*.head input,.head select{padding-top: 36px;*/
+/*}*/
+::placeholder{
+    color:rgb(66, 66, 66);
+   margin-left: 20px;
+}
+.head span{color:rgb(93, 93, 93)}
+/*form select{*/
+/*    border:none;*/
+/*    border-bottom: 1px solid gray;*/
+/*    background-color: transparent;*/
+/*    outline: none;*/
+/*    height: 40px;*/
+/*    color:black;*/
+/*    !*display: 16px;*!*/
+/*    width: 50%;*/
+/*    color:rgb(66, 66, 66);*/
+
+/*    margin-left: 30px;  */
+/*}*/
+.count{
+    width: 170px;
+}
+.gend{
+    width: 170px;
+}
+.country{
+    width: 400px;
+}
+form select option{
+    background: rgb(66, 66, 66);
+    color:  white;
+    border: none;
+}
+.btn-btn-info{
+    border-radius: 25px;
+    height: 45px;
+    width:400px;
+    border: none;
+    background-color: gray;
+      color: white;
+    cursor: pointer;
+     transition: all .5s ease-in;
+}
+.btn-btn-info:hover{
+    background-color: gray;
+    color: white;
+}
+.gend , .country{
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color:black;
+    /*display: 16px;  */
+}
+.group1,.group3,.group7,.group9,.group14{float:left}
+.group2,.group4,.group8,.group11,.group15{float: right;}
+
+form{margin-top: 22px;}
+form select{outline: none; color: #a09e9e;}
+.btn-btn-info{
+    background: gray;
+    /* linear-gradient(to right, rgba(13, 181, 200, 1) 0%, rgba(8, 155, 171, 1) 100%) !important; */
+    color: #fff;
+    border-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 2%;
+}
+.clear-fix{clear:both}
+.links ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 6%;
+    padding: 9px;
+    font-size: 19px;
+    color:gray;
+    cursor: pointer;
+}
+.clear-fix{clear: both;}
+
+.links{
+    border: white;
+    width: 96%;
+    margin-top: 26px;
+    margin-left: 1%;
+    padding: 28px 15px 15px 15px;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.line{
+    background-color: rgb(235, 233, 233);
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Personal-Information-img{
+    width: 24%;
+    height: 87px;
+
+}
+.Personal-Information{
+    margin-top: 60px;
+    width: 50%;
+    border: white;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    padding: 15px 15px 30px 30px;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.Personal-Information h5{margin-left: 30%}
+
+.Personal-Information input{
+    height: 36px;
+    line-height: 45px;
+    background: transparent;
+    border: 1px solid #d7dbda;
+    font-size: 14px;
+    color: #a09e9e;
+    border-radius: 7px;
+    outline: none;
+    margin-left:30%;
+    width: 99%;
+}
+form select,label{margin-left:30%;}
+::placeholder{padding-left: 10px;}
+.Personal-Information span{color: rgb(160, 160, 160);}
+.user-form{margin-top: 22px;}
+.user-form select{outline: none; color: #a09e9e;}
+.btn-btn-info{
+    background: gray;
+    /* linear-gradient(to right, rgba(13, 181, 200, 1) 0%, rgba(8, 155, 171, 1) 100%) !important; */
+    color: #fff;
+    border-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    margin-left: 30%;
+}
+.btn-info2{
+    background: #fcecec !important;
+    color: #e64141 !important;
+}
+.group1,.group3,.group7,.group9,.group14{float:left}
+.group2,.group4,.group8,.group11,.group15{float: right;}
+li.selected{
+    background-color: rgb(231, 227, 227);
+    border-radius: 6px;
+    text-align: center;
+}
+::placeholder{padding:10px}
+.mail-message-search{
+    border: 1px solid #eceaea;
+    margin-top: 51px;
+    margin-left: 20%;
+    border-radius: 10px;
+    background-color: rgb(231, 227, 227);
+
+}
+.fa-search{margin-left: -25px;color: gray;}
+.mail-message-search input{
+    border:none;
+    outline: none;
+}
+@media (max-width: 767px ){/* mobile & tablet*/
+    .head {
+        width: 75%;
+        margin-left: 6%;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){ /* small screen */ 
+    .head {
+        width: 56%;
+        margin-left: 15%;
+    }
+}
+@media (min-width: 992px) and (max-width:1199px) { /* medium screen */
+   
+
+}
